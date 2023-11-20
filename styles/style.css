@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Ubuntu&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%) no-repeat;
+    height: 100vh;
 }
 
 .header {
@@ -13,11 +15,23 @@ body {
 }
 
 .header__logo {
+    background-size: contain;
     width: 100px;
     height: 100px;
     display: block;
-    background-image: url(../images/header__logo.svg);
+    background-image: url(../images/1200px-Znak_kachestva_2.svg.png);
     background-repeat: no-repeat;
+}
+
+.form {
+    position: relative;
+}
+
+.form__button {
+    display: block;
+    background-image: url(../images/search-form__search-icon.svg);
+    width: 20px;
+    height: 20px;
 }
 
 .header__list {
@@ -29,4 +43,10 @@ body {
 .header__link {
     color: #fff;
     text-decoration: none;
+}
+
+.header__link-active {
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    border-radius: 10px;
+    padding: 10px 20px;
 }

@@ -71,4 +71,12 @@ body {
   /* pre {
     color: #181E41;
   } */
+
+  table {
+    border: 3px solid black;
+    border-collapse: collapse;
+  }
   
+  td {
+    border: 3px solid lightgray;
+  }

@@ -93,13 +93,27 @@
         <td>35</td>
       </tr>
     </table>
-    <form>
+    <form class="registration-form" enctype="multipart/form-data">
       <label>Login
       <input type="text">
       </label>
       <label>Password
         <input type="password">
         </label>
+        <label>Мне есть 18
+          <input type="radio" name="age" value="true">
+          </label>
+        <label>Пол
+          <select>
+            <option type="text" value="man">Мужской</option>
+            <option type="text" value="woman">Женский</option>
+          </select>
+          <br>
+          <label>Аватар
+          <input type="file">
+          </label>
+          <input type="hidden" value="secret">
+          <br>
           <input value="Signin" type="submit">
     </form>
   </main>

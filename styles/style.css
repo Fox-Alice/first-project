@@ -84,3 +84,7 @@ body {
     border: 3px solid lightgray;
     padding: 10px;
   }
+
+  .registration-form {
+    display: grid;
+  }

@@ -87,4 +87,7 @@ body {
 
   .registration-form {
     display: grid;
+    justify-content: center;
+    margin: 50px;
+    border: solid 3px #ff4400;
   }

@@ -90,4 +90,9 @@ body {
     justify-content: center;
     margin: 50px;
     border: solid 3px #ff4400;
+  } 
+
+  .square {
+    width: 100px;
+    height: 100px;
   }

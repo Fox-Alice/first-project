@@ -44,7 +44,7 @@ body {
 
 .header__link {
     color: #fff;
-    text-decoration: none;
+    text-decoration: underline wavy;
 }
 
 .header__link-active {
